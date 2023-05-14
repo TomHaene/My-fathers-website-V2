@@ -1,0 +1,154 @@
+
+/*-----------Macro stuff-------------*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* outline: 2px solid red; */
+}
+
+html{
+    font-size: 62.5%;
+
+}
+
+body{
+    background-color: #f7f8f9;
+}
+
+/*-----------Macro stuff-------------*/
+
+
+
+
+
+
+
+
+/*-----------Navigation-------------*/
+nav{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    padding: 17px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 9999;
+
+}
+
+
+
+.navLinks{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    font-size: 1.9rem;
+}
+
+
+.navLinks a{
+    font-size: 1.6rem;
+    margin-left: 9px;
+    margin-right: 9px;
+    text-decoration: none;
+}
+
+.filler{
+    height: 60px;;
+}
+
+/*-----------Navigation-------------*/
+
+
+
+
+
+
+
+
+/*-----------About-------------*/
+.about{
+    background-color: #ffffff;
+    width: 70vw;
+    min-width:400px;
+    max-width: 750px;
+    height: 1000px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-inline: auto;
+    line-height: 1.5;
+    font-size: 1.5rem;
+  
+}
+
+.aboutHeader{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;;
+
+}
+
+.about img{
+    width:26rem;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 25px;
+    
+    
+}
+
+.about h3{
+    text-align: center;
+    margin: 10px;
+}
+
+.about p{
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+
+/*-----------About-------------*/
+
+
+
+
+
+
+
+
+
+/*-----------Footer-------------*/
+footer{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    
+}
+
+footer div{
+    margin-left: 8px;
+    margin-right: 8px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-----------Footer-------------*/
